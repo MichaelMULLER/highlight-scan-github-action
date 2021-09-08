@@ -7,3 +7,5 @@ This repo contains a sample Github Action for running CAST Highlight scans on re
 - Define a GitHub Action environment with a secret CAST_HIGHLIGHT_API_TOKEN for the Highlight API/CLI token.
 
 For more info on how to enable CAST Highlight API/CLI tokens, see this page: https://doc.casthighlight.com/feature-focus-api-cli-user-token-management/
+
+For more info about CAST Highlight and Software Intelligence: https://www.castsoftware.com/products/highlight/
