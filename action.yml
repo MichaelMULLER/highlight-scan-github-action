@@ -1,16 +1,16 @@
-name: Cast Highlight Scan
+# name of your action
+name: CAST Highlight Scan (scheduled)
+
+# action triggers, here every two weeks (days 5 and 15 of the month) at 6am
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   
-  # push:
-  #   branches: [ main ]
-  # pull_request:
-  #   branches: [ main ]
-
-
   workflow_dispatch:
     branches: [ main ]
-  
+
+  schedule:
+    - cron: 0 6 1,15 * *
+
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -31,5 +31,7 @@ jobs:
                                                    --workingDir /w \
                                                    --tokenAuth ${{ secrets.CAST_HIGHLIGHT_API_TOKEN }} \
                                                    --companyId ${{ env.companyId }} \
-                                                   --applicationId ${{ env.applicationId }}
-                                                   --serverUrl ${{ env.serverUrl }}
+                                                   --applicationId ${{ env.applicationId }} \
+                                                   --serverUrl ${{ env.serverUrl }} \
+                                                   --ignoreDirectories ${{ env.ignoreDirectories }}
+
