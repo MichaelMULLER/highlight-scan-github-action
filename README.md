@@ -9,3 +9,5 @@ This repo contains a sample Github Action for running CAST Highlight scans on re
 For more info on how to enable CAST Highlight API/CLI tokens, see this page: https://doc.casthighlight.com/feature-focus-api-cli-user-token-management/
 
 For more info about CAST Highlight and Software Intelligence: https://www.castsoftware.com/products/highlight/
+
+[![CAST Highlight Scan (scheduled)](https://github.com/MichaelMULLER/akita/actions/workflows/main.yml/badge.svg)](https://github.com/MichaelMULLER/akita/actions/workflows/main.yml)
