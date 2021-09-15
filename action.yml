@@ -5,7 +5,7 @@ branding:
   icon: "code"
   color: "yellow"
 
-description: Run CAST Highlight scans on your Github repositories to automatically get Software Intelligence insights (code health, vulnerabilities, cloud readiness, etc.)
+description: Run CAST Highlight scans on your code to get Software Intelligence insights (vulnerabilities, cloud readiness, etc.)
 
 # action triggers, here every two weeks (days 5 and 15 of the month) at 6am
 on:
