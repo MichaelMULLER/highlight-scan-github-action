@@ -1,5 +1,11 @@
 # name of your action
-name: CAST Highlight Scan (scheduled)
+name: CAST Highlight Scan
+
+branding:
+  icon: "code"
+  color: "yellow"
+
+description: Run CAST Highlight scans on your Github repositories to automatically get Software Intelligence insights (code health, vulnerabilities, cloud readiness, etc.)
 
 # action triggers, here every two weeks (days 5 and 15 of the month) at 6am
 on:
