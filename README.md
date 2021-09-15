@@ -10,4 +10,3 @@ For more info on how to enable CAST Highlight API/CLI tokens, see this page: htt
 
 For more info about CAST Highlight and Software Intelligence: https://www.castsoftware.com/products/highlight/
 
-[![CAST Highlight Scan (scheduled)](https://github.com/MichaelMULLER/akita/actions/workflows/main.yml/badge.svg)](https://github.com/MichaelMULLER/akita/actions/workflows/main.yml)
