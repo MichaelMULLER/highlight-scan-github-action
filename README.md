@@ -1,5 +1,5 @@
 # highlight-scan-github-action
-This repo contains a sample Github Action for running CAST Highlight scans on repositories. CAST Highlight offers automated source code analysis of hundreds of applications in a week for Cloud Readiness, Open Source risks, Resiliency, Agility. Objective software insights combined with qualitative surveys for business context.
+This repo contains a sample Github Action for running CAST Highlight scans on repositories. CAST Highlight offers automated source code analysis of hundreds of applications in a week for Cloud Maturity, Open Source risks, Resiliency, Agility. Objective software insights combined with qualitative surveys for business context.
 
 
 # Prerequisites:
