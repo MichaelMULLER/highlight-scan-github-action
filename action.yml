@@ -32,7 +32,7 @@ jobs:
 
       - name: scan project source code 
         run: |
-          docker run --rm -v $(pwd):/s -v /tmp:/w  casthighlight/hl-agent-cli \
+          docker run --rm -v $(pwd):/s -v /tmp:/w  casthighlight/cli \
                                                    --sourceDir /s \
                                                    --workingDir /w \
                                                    --tokenAuth ${{ secrets.CAST_HIGHLIGHT_API_TOKEN }} \
